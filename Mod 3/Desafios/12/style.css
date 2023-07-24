@@ -82,12 +82,14 @@ section.image > p{
 }
 
 section#img1{
-    background-image: url('C:/Users/JP/Pictures/Imagens/490821.jpg');
+    /*background-image: url('C:/Users/JP/Pictures/Imagens/490821.jpg');*/
+    background-image: url('imagens/xp.jpg');
     background-position: right top;
 }
 
 section#img2{
-    background-image: url('C:/Users/JP/Pictures/Imagens/FpzrNomWwAAUHuN.jfif');
+    /*background-image: url('C:/Users/JP/Pictures/Imagens/FpzrNomWwAAUHuN.jfif');*/
+    background-image: url('imagens/wallpaperflare.com_wallpaper\ \(1\).jpg');
     background-position: center top;
 }
 
