@@ -8,18 +8,34 @@
         *{
             font-family: Arial, Helvetica, sans-serif;
         }
+        input#button{
+            border-radius: 10px;
+            background-color: gray;
+            color: white;
+            padding: 3px;
+        }
+        input#button:hover{
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.507);
+            transform: translate(-3px, -3px);
+        }
     </style>
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form  action="cadastro.php" autocomplete="off">
-        <p><label for="inome">Nome:</label> 
+    <form  action="zcad.php"  method="post" autocomplete="off">   
+        <p>
+            <label for="inome">Nome:</label> 
             <input type="text" name="nome" id="inome">
         </p>
-        <p><label for="isobrenome">Sobrenome:</label> 
+
+        <p>
+            <label for="isobrenome">Sobrenome:</label> 
             <input type="text" name="sobrenome" id="isobrenome">
         </p>
-        <p><input type="submit" value="Confirmar"></p>
+
+        <p>
+            <input type="submit" value="Cadastrar" id="button">
+        </p>
     </form>
 </body>
 </html>
